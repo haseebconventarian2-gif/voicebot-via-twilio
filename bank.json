@@ -1,0 +1,141 @@
+{
+  "organization": {
+    "name": "Bank Islami Pakistan Limited",
+    "type": "Islamic Bank",
+    "principle": "Shariah-compliant banking",
+    "branch_network": {
+      "branches": "500+",
+      "cities": "210+",
+      "services": "Online banking enabled branches nationwide"
+    }
+  },
+
+  "accounts": [
+    {
+      "id": "islami_asaan_account",
+      "name": "Islami Asaan Account",
+      "category": "Basic Banking Account",
+      "description": "Islami Asaan Account is designed to provide easy access to basic banking services under Shariah-compliant principles.",
+      "general_benefits": [
+        "Simple account opening process",
+        "Basic banking facilities",
+        "Suitable for individuals seeking an entry-level Islamic bank account"
+      ],
+      "opening_process": {
+        "documents": [
+          "Valid CNIC",
+          "Basic personal information"
+        ],
+        "how_to_open": [
+          "Visit nearest Bank Islami branch",
+          "Request Islami Asaan Account opening",
+          "Complete basic verification"
+        ]
+      },
+      "notes": "Exact features, limits, and charges may vary. Customer is advised to confirm with branch or representative."
+    },
+    {
+      "id": "islami_sahulat_account",
+      "name": "Islami Sahulat Account",
+      "category": "Savings / Deposit Account",
+      "description": "Islami Sahulat Account is offered to provide convenient Islamic banking services with ease of access.",
+      "general_benefits": [
+        "Shariah-compliant banking",
+        "Convenient account management",
+        "Access through branch and digital channels"
+      ],
+      "opening_process": {
+        "documents": [
+          "Valid CNIC",
+          "Customer information as per bank policy"
+        ],
+        "how_to_open": [
+          "Visit Bank Islami branch",
+          "Submit required documents",
+          "Account activation after verification"
+        ]
+      },
+      "notes": "Profit rates, minimum balance, and eligibility depend on bank policy."
+    },
+    {
+      "id": "islami_khair_current_account",
+      "name": "Islami Khair Current Account",
+      "category": "Current Account",
+      "description": "Islami Khair Current Account is a Shariah-compliant current account option offered by Bank Islami.",
+      "general_benefits": [
+        "Islamic current account structure",
+        "Suitable for personal and business use",
+        "Access to nationwide branch network"
+      ],
+      "opening_process": {
+        "documents": [
+          "Valid CNIC",
+          "Additional documents may be required for business customers"
+        ],
+        "how_to_open": [
+          "Visit nearest Bank Islami branch",
+          "Request current account opening",
+          "Complete verification process"
+        ]
+      },
+      "notes": "Terms and conditions apply as per Bank Islami policy."
+    }
+  ],
+
+  "digital_banking": {
+    "mobile_app": {
+      "description": "Bank Islami Mobile App provides a quick and secure digital banking experience.",
+      "features": [
+        "Account management",
+        "Fund transfers",
+        "Raast payments",
+        "Debit card transaction history",
+        "Face ID support (iOS)",
+        "Device management"
+      ],
+      "security": [
+        "Password protection",
+        "Advanced security controls",
+        "Root detection for enhanced safety"
+      ]
+    }
+  },
+
+  "payments": {
+    "raast": {
+      "name": "Raast Instant Payment",
+      "description": "Raast is a safe, secure, and free-of-cost instant payment system supported by Bank Islami."
+    }
+  },
+
+  "office_locations": {
+    "head_office": {
+      "name": "Registered / Head Office",
+      "address": "11th Floor, Executive Tower, Dolmen City, Marine Drive, Block-4, Clifton, Karachi",
+      "phone_numbers": [
+        "021-111-475-264",
+        "021-32410135"
+      ]
+    },
+    "branches": {
+      "description": "Bank Islami operates 500+ branches across 210+ cities in Pakistan.",
+      "note": "For exact branch location and timings, customer should contact Bank Islami helpline or visit the official website."
+    }
+  },
+
+  "customer_support": {
+    "phone_banking": "021-111-ISLAMI (475264)",
+    "services": [
+      "Account information",
+      "Complaint registration",
+      "Service requests"
+    ]
+  },
+
+  "rag_usage_guidelines": {
+    "voice_priority": true,
+    "clarification_required_if_uncertain": true,
+    "do_not_hallucinate_exact_charges_or_profit_rates": true,
+    "offer_human_handoff_when_needed": true
+  }
+}
