@@ -15,6 +15,14 @@ Voice bot prototype using FastAPI, Azure OpenAI chat and speech services, with T
 
 Voice bot prototype using FastAPI, Azure OpenAI chat and speech services, with Twilio integration support.
 
+## 📖 The Story
+
+Messaging providers shape how a bot receives media, verifies requests, and sends replies. This repository explores the same banking voice-assistant core through a Twilio-oriented channel rather than binding the design to only one WhatsApp integration.
+
+The conversational pipeline combines Azure transcription, retrieval through FAISS, Azure chat generation, and speech synthesis. The messaging module contains Twilio account, token, and sender configuration alongside the broader webhook and media-handling code.
+
+The project is best viewed as a provider-integration experiment. Future work should isolate Meta and Twilio adapters behind one interface, add webhook-signature validation, and document a tested Twilio sandbox walkthrough.
+
 ## Highlights
 
 - Text conversation endpoint
@@ -94,4 +102,5 @@ This is a learning and reference implementation. Review security, validation, mo
 - Define retention and privacy controls for audio and customer data.
 
 > This README reflects the current codebase. External AI, telephony, and messaging features require their respective accounts, assets, and approvals.
+
 
